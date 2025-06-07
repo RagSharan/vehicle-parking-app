@@ -1,0 +1,10 @@
+server:
+  port: "8082"
+database:
+  host: localhost
+  port: "5432"
+  user: postgres
+  password: password
+  name: payment_db
+jwt:
+  secret: your_jwt_secret
